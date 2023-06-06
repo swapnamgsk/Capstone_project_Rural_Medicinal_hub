@@ -42,6 +42,19 @@
     border-radius : 10px;
     color : rgb(230, 223, 223);
 }
+#text
+{
+    background-color: aliceblue;
+    display : flex;
+    width : 480px;
+    margin-left : 400px;
+    margin-right : 300px;
+    color : green;
+    line-height : 50px;
+    text-align: center;
+    border-radius : 60px;
+    padding: 30px;
+}
 #box2
 {
     width : 50%;
@@ -69,4 +82,39 @@
     margin-top :120px;
     margin-left : 100px;
     line-height: 35px;
+}
+#two
+{
+    width : 70px;
+}
+#footer
+{
+    width : 95%;
+    height : 350px;
+    border : 1px solid black;
+    margin : auto;
+    margin-top : 100px;
+}
+#threebox
+{
+    display : flex;
+}
+.same
+{
+    width : 400px;
+    height : 300px;
+    margin-left :30px;
+    border : 1px solid black;
+    margin-top : 50px;
+}
+#first
+{
+    margin-left : 90px;
+}
+#big
+{
+    margin : auto;
+    margin-top : 100px;
+    line-height : 50px;
+    width : 90%;
 }
