@@ -1,0 +1,51 @@
+#main
+{
+    width : 900px;
+    height : 450px;
+    display : flex;
+    margin : auto;
+    margin-top : 150px;
+}
+#first
+{
+    width : 450px;
+    height : 450px;
+    border : 1px solid black;
+    border-radius : 10px;
+    /* background-color: rgb(242, 239, 234); */
+}
+#username
+{
+    padding : 10px 20px;
+    border : 1px solid black;
+    margin-top : 20px;
+}
+#new
+{
+    padding : 10px 20px;
+    border: 1px solid black;
+    margin-top : 20px;
+}
+#confirm
+{
+    padding : 10px 20px;
+    border : 1px solid black;
+    margin-top : 20px;
+}
+#button
+{
+    padding : 10px;
+    border: 1px solid black;
+    border-radius : 10px;   
+    margin-top : 30px;
+    background-color : rgb(218, 203, 176);
+}
+#second
+{
+    width : 450px;
+    height : 450px;
+    border : 1px solid black;
+    border-radius : 10px;
+    background-image: url("../../public/flower.jpg");
+    background-size:500px ;
+}

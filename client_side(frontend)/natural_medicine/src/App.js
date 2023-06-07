@@ -1,15 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 import Home from './Components/Home';
-import Signup from './Components/SignupPage';
-import Login from './Components/Loginpage';
-
+// import Signup from './Components/SignupPage';
+// import Login from './Components/Loginpage';
+// import Forget from './Components/Forget';
 function App() {
   return (
     <div className="App">
-       {/* <Home/>  */}
-        <Signup/>
+        <Home/> 
+        {/* <Signup/> */}
         {/* <Login/> */}
+        {/* <Forget/> */}
     </div>
   );
 }

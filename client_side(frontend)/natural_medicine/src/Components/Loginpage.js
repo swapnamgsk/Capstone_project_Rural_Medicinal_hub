@@ -2,9 +2,8 @@ import React from "react";
 import './Loginpage.css';
 function Login(){
     return(
-        <div>
+        <div id = "container">
             <div id = "Main">
-                {/* <img src = "login.jpeg" id = "login"></img> */}
                 <input type = "text" placeholder = "Username"  id = "Name"/><br/>
                 <input type = "password" placeholder = "Password"  id = "Password"/><br/>
                 <button id = "button">Login</button>
@@ -16,3 +15,4 @@ function Login(){
 }
 
 export default Login;
+

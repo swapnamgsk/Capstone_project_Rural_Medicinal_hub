@@ -1,8 +1,6 @@
 import React from "react";
 import './SignupPage.css';
-// import { useState } from "react";
-
-
+import { useState } from "react";
 function Signup(){
     return(
         <div id = "cont">

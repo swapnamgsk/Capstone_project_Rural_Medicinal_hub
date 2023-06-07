@@ -90,10 +90,12 @@
 #footer
 {
     width : 95%;
-    height : 350px;
+    height : 400px;
     border : 1px solid black;
+    border-radius : 10px;
     margin : auto;
     margin-top : 100px;
+    margin-left: 30px;
 }
 #threebox
 {

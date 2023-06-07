@@ -6,7 +6,7 @@
     height : 500px;
     border : 1px solid black;
     border-radius : 10px;
-    background-color : rgb(167, 165, 163);
+    background-color : rgb(211, 209, 205);
 }
 #name
 {
@@ -46,7 +46,7 @@
 #cont
 {
     display : flex;
-    border : 1px solid black;
+    border : 1px solid black; 
 }
 #btn
 {
@@ -65,7 +65,6 @@
     margin-left : 250px;
     border-top-left-radius: 450px;
     border-bottom-left-radius: 400px;
-
 }
 #plants
 {
