@@ -1,32 +1,33 @@
 #main
 {
-    margin-top : 100px;
-    margin-left :50px;
+    margin-top : 150px;
+    margin-left : 600px;
     width : 450px;
     height : 500px;
     border : 1px solid black;
-    border-radius : 10px;
-    background-color : rgb(167, 165, 163);
+    border-radius : 50px;
+    background-color : white;
+    color : rgb(20, 198, 20);
 }
 #name
 {
     padding : 10px;
     border : 1px solid black;
-    margin-top : 60px; 
+    margin-top : 10px; 
     border-radius : 5px;
 }
 #user
 {
     padding : 10px;
     border : 1px solid black;
-    margin-top : 30px; 
+    margin-top : 25px; 
     border-radius : 5px;    
 }
 #mail
 {
     padding : 10px;
     border : 1px solid black;
-    margin-top : 30px;
+    margin-top : 25px;
     border-radius : 5px;
 }
 #password
@@ -34,45 +35,27 @@
 
     padding : 10px;
     border : 1px solid black;
-    margin-top : 30px;
+    margin-top : 25px;
     border-radius : 5px;
 }
 #number
 {
     padding : 10px;
     border : 1px solid black;
-    margin-top : 30px;
+    margin-top : 25px;
     border-radius : 5px;
 }
-#cont
+#container
 {
+    height : 810px;
     display : flex;
     border : 1px solid black;
+    background-size : cover;
 }
-#btn
+#button
 {
-    margin-top : 30px;
+    margin-top : 25px;
     padding : 7px;
     border : 1px solid black;
     border-radius : 5px;
-}
-#second
-{
-    width : 850px;
-    height : 700px;
-    border : 1px solid black;
-    margin-top : 20px;
-    margin-bottom : 20px;
-    margin-left : 250px;
-    border-top-left-radius: 450px;
-    border-bottom-left-radius: 400px;
-
-}
-#plants
-{
-    width : 850px;
-    height : 700px;
-    border-top-left-radius: 450px;
-    border-bottom-left-radius: 400px;
-
 }

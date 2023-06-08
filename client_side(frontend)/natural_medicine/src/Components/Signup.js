@@ -1,23 +1,19 @@
 import React from "react";
 import './Signup.css';
-// import { useState } from "react";
 
 
 function Signup(){
     return(
-        <div id = "cont">
+        <div id = "container">
             <div id = "main">
+                <h1>Signup Page</h1>
                 <input type = "text" placeholder = "Name"  id = "name"/><br/>
                 <input type = "text" placeholder = "Username"  id = "user"/><br/>
                 <input type = "email" placeholder = "Email id"  id = "mail"/><br/>
                 <input type = "password" placeholder = "Password"  id = "password"/><br/>
                 <input type = "number" placeholder = "Phonenumber"  id = "number"/><br/>
-                <button id = "btn">SIGN UP</button>
+                <button id = "button">SIGN UP</button>
                 <p>Already have Account LOGIN</p    >
-            </div>
-            <div id= "second">
-                <img src = "plants.png" id = "plants"></img>
-
             </div>
         </div>
     )
