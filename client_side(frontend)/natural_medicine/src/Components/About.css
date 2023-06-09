@@ -1,0 +1,43 @@
+#navbar
+{
+    width : 100%;
+    height : 80px;
+    border : 1px solid black;
+    display : flex; 
+    font-size : 25px;
+}
+#logo
+{
+    width : 100px;
+    height : 80px;
+    margin-left : 20px;
+    background-image : url('../../public/Resource/photo.jpg');
+    background-size : 100px;
+}
+#home
+{
+    margin-left : 850px;
+    margin-top : 25px;
+}
+#about
+{
+    margin-left : 70px;
+    margin-top : 25px;
+}
+#resource
+{
+    margin-left : 70px;
+    margin-top : 25px;
+}
+#signup
+{
+    margin-left : 70px;
+    margin-top : 25px;
+}
+p
+{
+    font-style: normal;
+    font-size : 20px;
+}
+
+/* Georgia */
