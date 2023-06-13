@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css'
+{/* <h1 id = "h1">A Journey into Rural Medicinal Plant Knowledge</h1> */}
 function Home()
 {
     return( 
@@ -12,7 +13,6 @@ function Home()
                 <p id = "signup">Signup</p>
             </div>
             <div id = "box1">
-                {/* <h1 id = "h1">A Journey into Rural Medicinal Plant Knowledge</h1> */}
                 <div id = "Leftbox"></div>
                 <div id = "rightbox"></div>
             </div>
@@ -25,7 +25,7 @@ function Home()
                 <div id = "circlestructure"></div>
                 <div id = "content">
                     <h2>Rediscovering Rural Medicinal Plants</h2>
-                    <p>Historically plants have played an important role in medicine. Through observation and experimentation, human beings have learnt that plants promote health and well-being. The use of these herbal remedies is not only cost effective but also safe and almost free from serious side effects. The village elders, farmers and tribal have tremendous knowledge about for health reasons started thousands of years ago and is still part of medical practices by folks of various regions of Indian sub-continents as well as several other countries including China middle East, Africa Egypt, South America and other developing countries of world. This review article shade a small beam of light on conservational strategies of medicinal plants as well as their marketing price in past and near future scenario.</p>
+                    <p className= "Content">Historically plants have played an important role in medicine. Through observation and experimentation, human beings have learnt that plants promote health and well-being. The use of these herbal remedies is not only cost effective but also safe and almost free from serious side effects. The village elders, farmers and tribal have tremendous knowledge about for health reasons started thousands of years ago and is still part of medical practices by folks of various regions of Indian sub-continents as well as several other countries including China middle East, Africa Egypt, South America and other developing countries of world. This review article shade a small beam of light on conservational strategies of medicinal plants as well as their marketing price in past and near future scenario.</p>
                 </div>
             </div>
             <div id = "box4">

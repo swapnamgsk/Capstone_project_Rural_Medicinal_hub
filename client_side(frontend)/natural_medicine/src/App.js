@@ -8,10 +8,10 @@ import About from './Components/About'
 function App() {
   return (
     <div className="App">
-      {/* <Home/> */}
-      {/* <Signup/><br/> */}
-      {/* <Login/> */}
-      {/* <Forgot/> */}
+      {/* <Home/><br></br> */}
+      {/* <Signup/><br></br>
+      <Login/><br></br>
+      <Forgot/><br></br> */}
       <About/>
     </div>
   );
