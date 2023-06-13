@@ -12,7 +12,9 @@ function Home()
                 <p id = "signup">Signup</p>
             </div>
             <div id = "box1">
-                <h1 id = "h1">A Journey into Rural Medicinal Plant Knowledge</h1>
+                {/* <h1 id = "h1">A Journey into Rural Medicinal Plant Knowledge</h1> */}
+                <div id = "Leftbox"></div>
+                <div id = "rightbox"></div>
             </div>
             <div id = "box2">
                 <img src = "round.png" className = "circle" />

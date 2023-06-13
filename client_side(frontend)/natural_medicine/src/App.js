@@ -1,18 +1,18 @@
 import React from 'react';
 import './App.css';
-import Home from './Components/Home';
+// import Home from './Components/Home';
 // import Signup from './Components/Signup'
 // import Login from './Components/Login';
 // import Forgot from './Components/Forgot';
-// import About from './Components/About'
+import About from './Components/About'
 function App() {
   return (
     <div className="App">
-      <Home/>
-      {/* <Signup/> */}
+      {/* <Home/> */}
+      {/* <Signup/><br/> */}
       {/* <Login/> */}
       {/* <Forgot/> */}
-      {/* <About/> */}
+      <About/>
     </div>
   );
 }

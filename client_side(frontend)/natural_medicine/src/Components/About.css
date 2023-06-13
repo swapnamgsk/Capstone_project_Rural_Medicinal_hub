@@ -34,10 +34,55 @@
     margin-left : 70px;
     margin-top : 25px;
 }
-p
+.aboutus
 {
-    font-style: normal;
-    font-size : 20px;
+    width : 100%;
+    height : 750px;
+    margin : auto;
+    border : 1px solid black; 
+    border-top : none;
+    display : flex;
+}
+#aboutus
+{
+    width : 100%;
+    height : 750px;
+    margin : auto;
+    border : 1px solid black; 
+    display : flex;
+    margin-top : 500px;
+}
+.text
+{
+    width : 70%;
+    height: 100%;
+    border : 1px solid black;
+    border-radius : 50px;
+    border-top : 0px;
+    justify-content: center;
+    line-height: 35px;
+    font-size:18px ;
 }
 
-/* Georgia */
+#heading
+{
+    font-size : 25px;
+    color : brown;
+}
+.subheading
+{
+    color : brown;
+    font-size : 20px;
+}
+.boyimage
+{
+    width : 30%;
+    height : 100%;
+    background-image : url('../../public/Resource/boy.png');
+    background-size : cover;
+}
+.image
+{
+    width : 30%;
+    height : 100%;
+}
