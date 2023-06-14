@@ -19,7 +19,7 @@
 }
 #home
 {
-    margin-left : 850px;
+    margin-left : 800px;
     margin-top : 30px;
     font-style: normal;
     font-size : 20px;
@@ -90,6 +90,13 @@ h1
 {
     width : 100%;
     height : 350px;
+}
+.ourpurpose
+{
+    margin-left : 680px;
+    color : brown;
+    font-size : 25px;
+
 }
 .div
 {
@@ -170,7 +177,7 @@ h1
     height : 800px;
     border : 1px solid black;
     border-radius : 10px;
-    text-align : center;
+    justify-content: center;
 }
 .nalleruimage
 {
@@ -189,7 +196,7 @@ h1
 
 h3
 {
-    margin-top : 0px;
+    margin-left : 380px;
 }
 
 

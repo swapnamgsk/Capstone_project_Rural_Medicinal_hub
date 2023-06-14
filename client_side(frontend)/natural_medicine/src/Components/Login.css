@@ -17,12 +17,16 @@ h1
     background-image : url('../../public/Resource/login1.png');
     background-size : cover;
 }
+#heading
+{
+    margin-top : 150px;
+}
 #Main
 {
     width : 450px;
     height : 450px;
-    margin-left : 300px;
-    margin-top : 150px;
+    margin-left : 250px;
+    margin-top : 50px;
     background-color : white;
     background-size : 500px;
     color : black;
@@ -45,10 +49,10 @@ h1
     background-color :rgb(223, 229, 233);
     border : none;
 }
-#button
+#LOGIN
 {
     margin-top : 25px;
-    margin-left : 20px;
+    margin-left : 130px;
     padding : 15px 75px;
     border : none;
     border-radius : 5px;

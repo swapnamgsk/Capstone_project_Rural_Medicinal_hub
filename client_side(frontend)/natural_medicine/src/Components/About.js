@@ -25,7 +25,7 @@ function About()
                 </div>   
             </div>
             <div className = "purpose">
-                    <p className="subheading">Our Purpose</p>
+                    <p className="ourpurpose">Our Purpose</p>
                     <div className = "div">
                         <div>
                             <div className="one">1</div>
@@ -43,15 +43,6 @@ function About()
                          </div>
                     </div>
             </div>
-           
-            {/* <div id = "imagesdiv">
-                <div className="image1"></div>
-                <div className="image2"></div>
-                <div className="image3"></div>
-                <div className="image4"></div>
-            </div> */}
-
-
             <div id="purpose2">
                 <div id = "lefttwobox">
                     <div className = "box1">

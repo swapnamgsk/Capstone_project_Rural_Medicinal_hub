@@ -5,7 +5,7 @@ import './Signup.css';
 function Signup(){
     return(
         <div id = "container">
-            <div id = "leftBox">
+            <div id = "smallcontainer">
                 <h2>Uncover, Unlock, Empower:<br/> Nature's Wisdom.</h2>
             </div>
             <div>
@@ -17,7 +17,7 @@ function Signup(){
                 <input type = "email" placeholder = "Email id"  id = "mail"/><br/>
                 <input type = "password" placeholder = "Password"  id = "password"/><br/>
                 <input type = "number" placeholder = "Phonenumber"  id = "number"/><br/>
-                <button id = "button">SIGN UP</button>
+                <button id = "SIGNUP">SIGN UP</button>
             </div>
             </div>
         </div>

@@ -1,0 +1,88 @@
+#navbar
+{
+    width : 100%;
+    height : 80px;
+    border : 1px solid black;
+    display : flex; 
+    font-size : 25px;
+    background-color : #212121;
+    color : white;
+}
+#logo
+{
+    width : 80px;
+    height : 80px;
+    margin-left : 20px;
+    background-image : url('../../public/Resource/photo.jpg');
+    border-radius : 500px;
+    background-size : 100px;
+}
+#home
+{
+    margin-left : 800px;
+    margin-top : 30px;
+    font-style: normal;
+    font-size : 20px;
+}
+#about
+{
+    margin-left : 70px;
+    margin-top : 30px;
+    font-style: normal;
+    font-size : 20px;
+}
+#resource
+{
+    margin-left : 70px;
+    margin-top : 30px;
+    font-style: normal;
+    font-size : 20px;
+}
+#signup
+{
+    margin-left : 70px;
+    margin-top : 30px;
+    font-style: normal;
+    font-size : 20px;
+}
+
+h1
+{
+    text-align: center;
+}
+.subbox
+{
+    width : 100%;
+    height : 450px;
+    /* border : 1px solid black; */
+    display: flex;
+}
+.card
+{
+    width : 23%;
+    height : 300px;
+    border : 1px solid black;
+    margin-top : 70px;
+    margin-bottom : 50px;
+    margin-left : 50px;
+    margin-right : 50px;
+}
+.milkplant
+{
+    background-image : url('../../public/Resource/milkplant.jpg');
+}
+.coronaplant
+{
+    background-image : url('../../public/Resource/corona.jpg');
+    background-size : 380px 330px;
+}
+.aloevera
+{
+    background-image : url('../../public/Resource/aloevera.jpg');
+    background-size : 380px 380px;
+}
+.munaga
+{
+    background-image : url('../../public/Resource/munaga.png');
+    background-size : cover;
+}
