@@ -12,10 +12,9 @@ function Home()
                 <p id = "resource">Plant Resource</p>
                 <p id = "signup">Signup</p>
             </div>
-            <div id = "box1">
-                <div id = "Leftbox"></div>
-                <div id = "rightbox"></div>
-            </div>
+
+            <div id = "box1"></div>
+            <div></div>
             <div id = "box2">
                 <img src = "round.png" className = "circle" />
                 <img src = "round.png" className = "circle" />
@@ -30,11 +29,14 @@ function Home()
             </div>
             <div id = "box4">
                 <div id = "image1"></div>
-                <div id = "image2"></div>
+                <div id = "image2"></div>   
                 <div id = "image3"></div>
                 <div id = "image4"></div>
             </div>
             <div id = "lastcontent"></div>
+
+
+
             <div id = "footer">
                 <div id = "homepart">
                     <h2 id = "heading2">Home</h2>

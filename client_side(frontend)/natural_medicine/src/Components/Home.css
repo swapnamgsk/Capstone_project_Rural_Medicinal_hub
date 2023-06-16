@@ -52,18 +52,8 @@
     display :flex;
     border: 1px solid black;
     border-top: none;
-}
-#Leftbox
-{
-    width : 60%;
-    height : 100%;
-    border: 1px solid black;
-}
-#rightbox
-{
-    width : 40%;
-    height : 100%;
-    border: 1px solid black;
+    background-image : url('../../public/Resource/mainimage.png');
+    background-size :cover;
 }
 #box2
 {
@@ -129,6 +119,14 @@
     border-radius : 10px;
     background-size : 380px;
 }
+#image1
+{
+    width : 350px;
+    height : 350px;
+    border : 1px solid black;
+    margin-left : 50px;
+    border-radius : 10px;
+}
 #image2
 {
     width : 350px;
@@ -151,6 +149,7 @@
     height : 350px;
     border : 1px solid black;
     margin-left : 50px;
+    margin-right : 50px;
     border-radius : 10px;
 }
 #lastcontent
@@ -161,6 +160,7 @@
     margin : auto;
     margin-top : 70px;
 }
+
 #footer
 {
     width: 95%;
