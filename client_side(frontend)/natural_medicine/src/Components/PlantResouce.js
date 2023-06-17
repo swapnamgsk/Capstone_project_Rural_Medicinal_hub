@@ -9,7 +9,7 @@ function PlantResource()
                 <div id = "logo"></div>
                 <p id = "home">Home</p>
                 <p id = "about">About</p>
-                <p id = "resource">Plant Resource</p>
+                <p id = "resource">Plant collections</p>
                 <p id = "signup">Signup</p>
             </div>
             <div className= "background">

@@ -9,32 +9,68 @@ function Home()
                 <div id = "logo"></div>
                 <p id = "home">Home</p>
                 <p id = "about">About</p>
-                <p id = "resource">Plant Resource</p>
+                <p id = "resource">Plant collections</p>
                 <p id = "signup">Signup</p>
             </div>
 
-            <div id = "box1"></div>
-            <div></div>
-            <div id = "box2">
-                <img src = "round.png" className = "circle" />
-                <img src = "round.png" className = "circle" />
-                <img src = "round.png" className = "circle" />
-            </div>
-            <div id = "box3">
-                <div id = "circlestructure"></div>
-                <div id = "content">
-                    <h2>Rediscovering Rural Medicinal Plants</h2>
-                    <p className= "Content">Historically plants have played an important role in medicine. Through observation and experimentation, human beings have learnt that plants promote health and well-being. The use of these herbal remedies is not only cost effective but also safe and almost free from serious side effects. The village elders, farmers and tribal have tremendous knowledge about for health reasons started thousands of years ago and is still part of medical practices by folks of various regions of Indian sub-continents as well as several other countries including China middle East, Africa Egypt, South America and other developing countries of world. This review article shade a small beam of light on conservational strategies of medicinal plants as well as their marketing price in past and near future scenario.</p>
+            <div className= "main">
+                <div className= "box1">
+                <button id = "anchorbutton"><a href = "https://www.youtube.com/watch?v=-a-Pu5fi6wo" className= "anchor"> Watch a small over view on Rural medicinal hub</a></button>
+                    <h1>Rural medicinal hub</h1>
+                    <h2>A Journey into Rural Medicinal Plant Knowledge</h2>
+                    <p className = "para">Nature is the master of healing, and </p> 
+                    <p id = "para">medicinal plants are its greatest gift to humanity.</p>
+                    <p className= "lastLine">Every plant is a pharmacy, waiting to be discovered</p>
                 </div>
+                <div className= "image-animation"></div>
             </div>
-            <div id = "box4">
-                <div id = "image1"></div>
-                <div id = "image2"></div>   
-                <div id = "image3"></div>
-                <div id = "image4"></div>
-            </div>
-            <div id = "lastcontent"></div>
 
+
+
+
+
+
+            <div className= "middlePart">
+                <div className = "container">
+                    <div id = "imageDiv">
+                        <div className="round1 skin"></div>
+                        <div className= "round"></div>
+                        <div className= "round"></div>
+                        <div className= "round"></div>
+                    </div>
+                    <div id = "textdiv">
+                        <div className= "textDiv1">
+                            <h3>Skin diseases</h3>
+                            <p>Aloevera</p>
+                        </div>
+                        <div className= "textDiv"></div>
+                        <div className= "textDiv"></div>
+                        <div className= "textDiv"></div>
+                    </div>
+                </div> 
+
+
+                <div className = "container">
+                    <div id = "imageDiv">
+                        <div className="round1"></div>
+                        <div className= "round"></div>
+                        <div className= "round"></div>
+                        <div className= "round"></div>
+                    </div>
+                    <div id = "textdiv">
+                        <div className= "textDiv1"></div>
+                        <div className= "textDiv"></div>
+                        <div className= "textDiv"></div>
+                        <div className= "textDiv"></div>
+                    </div>
+                </div>
+            </div> 
+
+
+            <div className= "horizontalDiv"></div>
+
+            <div className= "largeDiv"></div>
+            <div className= "lastHorizontal"></div>
 
 
             <div id = "footer">
@@ -84,3 +120,7 @@ function Home()
     )
 }
 export default Home;
+
+
+
+{/* <p className= "Content">Historically plants have played an important role in medicine. Through observation and experimentation, human beings have learnt that plants promote health and well-being. The use of these herbal remedies is not only cost effective but also safe and almost free from serious side effects. The village elders, farmers and tribal have tremendous knowledge about for health reasons started thousands of years ago and is still part of medical practices by folks of various regions of Indian sub-continents as well as several other countries including China middle East, Africa Egypt, South America and other developing countries of world. This review article shade a small beam of light on conservational strategies of medicinal plants as well as their marketing price in past and near future scenario.</p> */}

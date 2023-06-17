@@ -14,8 +14,8 @@
     height : 80px;
     margin-left : 20px;
     border-radius : 500px;
-    background-image : url('../../public/Resource/photo.jpg');
-    background-size : 100px;
+    background-image : url('../../public/Resource/image16.png');
+    background-size : 75px;
 }
 #home
 {
@@ -45,11 +45,9 @@
     font-style: normal;
     font-size : 20px;
 }
-
-
 h1
 {
-    margin-right : 870px;
+    margin-left : 210px;
 }
 .aboutus
 {
@@ -80,9 +78,15 @@ h1
     color : brown;
     font-size : 25px;
 }
+.subheading1
+{
+    color : brown;
+    font-size : 25px;
+    margin-left :250px;
+}
 .paragraph
 {
-    left: 150px;
+    /* left: 150px; */
     line-height : 40px; 
     font-size : 18px;
 }
@@ -155,7 +159,7 @@ h1
 {
     width : 400px;
     height : 250px;
-    background-image : url('../../public/Resource/usiri.png');
+    background-image : url('../../public/Resource/Usiri.png');
     background-size : cover;
     margin-top : 70px;
 }
@@ -204,7 +208,7 @@ h3
 
 
 
-#footerpart
+#footer
 {
     width: 95%;
     height: 400px;
@@ -216,29 +220,31 @@ h3
     background-color : #212121;
     color : white;
 }
-#homepart1
+#homepart
 {
     width : 30%; 
     margin-top : 60px;
+    margin-left : 80px;
 }
-#heading3
+#heading2
 {
-    margin-left : 20px;
+    margin-left : 10px;
 }
-#Contact
+#contact
 {
-    margin-left : 50px;
+    width : 30%;
+    /* margin-left : 50px; */
     margin-top : 50px;
 }
-#emailaddress
+#email-address
 {
     display : flex;
 }
-#mobileNumber
+#mobilenumber
 {
     display : flex;
 }
-#address
+#Address
 {
     display : flex;
 }
@@ -247,22 +253,22 @@ p
 {
     margin-top :20px;
     margin-left : 10px;
-    line-height : 30px;
+    line-height : 20px;
 }
-#socialmedia1
+#socialmedia
 {
-    margin-left : 50px;
+    margin-left : 20px;
 }
-#socialmedialinks1
+#socialmedialinks
 {
-    margin-left: 200px;
+    width : 30%;
     margin-top : 30px;
 }
-#facebook1
+#facebook
 {
     display : flex;
 }
-#facebookimage1
+#facebookimage
 {
     background-image : url('../../public/Resource/facebook1.png');
     background-size : 50px;
@@ -271,16 +277,16 @@ p
     border-radius : 30px;
     margin-top : 10px;
 }
-#facebooklink1
+#facebooklink
 {
     margin-left : 15px;
     margin-top : 26px;
 }
-#twitter1
+#twitter
 {
     display : flex;
 }
-#twitterimage1
+#twitterimage
 {
     background-image : url('../../public/Resource/twitter.png');
     background-size : 50px;
@@ -289,16 +295,16 @@ p
     height : 50px;
     margin-top : 10px;
 }
-#twitterlink1
+#twitterlink
 {
     margin-left : 15px;
     margin-top : 26px;
 }
-#instagram1
+#instagram
 {
     display : flex;
 }
-#instagramimage1
+#instagramimage
 {
     background-image : url('../../public/Resource/instagram.jpeg');
     background-size : 50px;
@@ -307,16 +313,16 @@ p
     height : 50px;
     margin-top : 10px;
 }
-#instagramlink1
+#instagramlink
 {
     margin-left : 15px;
     margin-top : 26px;
 }
-#linkedin1
+#linkedin
 {
     display: flex;
 }
-#linkedinimage1
+#linkedinimage
 {
     background-image : url('../../public/Resource/linkedin.png');
     background-size : 50px;
@@ -325,12 +331,12 @@ p
     height : 50px;
     margin-top : 10px;
 }
-#linkedinlink1
+#linkedinlink
 {
     margin-left : 15px;
     margin-top : 26px;
 }
- h2
+ /* h2
 {
     margin-right :30px;
-}
+} */
