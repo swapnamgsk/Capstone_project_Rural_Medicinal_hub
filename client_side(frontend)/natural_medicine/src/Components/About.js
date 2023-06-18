@@ -82,54 +82,7 @@ function About()
              </div> 
              <h3>Thank you for joining us on this exciting exploration of rural Medicinal Hub!</h3>   
           
-
-
-
-
-             <div id = "footer">
-                <div id = "homepart">
-                    <h2 id = "heading2">Home</h2>
-                    <p>About</p>
-                    <p>Collections</p>
-                    <p>Plant resources</p>
-                    <p>Services</p>
-                </div>
-                <div id = "contact">
-                    <h2>Contact us</h2>
-                    <div id = "email-address">
-                         <h3>Email Adress :  </h3>
-                         <p>mgswappna1911@gmail.com</p>
-                    </div>
-                    <div id = "mobilenumber">
-                        <h3>Mobile number : </h3>
-                        <p>9177939170</p>
-                    </div>
-                    <div id = "Address">
-                        <h3>Adress : </h3>
-                        <p>2-20/Jeedimakulapalli,gangavaram<br/>Chittor,AP</p>
-                    </div>
-                </div>
-                <div id = "socialmedialinks">
-                    <h2 id = "socialmedia">Social media</h2>
-                    <div id = "facebook">
-                        <div id = "facebookimage"></div>
-                        <h3 id = "facebooklink">Facebook</h3>
-                    </div>
-                    <div id = "twitter">
-                        <div id = "twitterimage"></div>
-                        <h3 id = "twitterlink">Twitter</h3>
-                    </div>
-                    <div id = "instagram">
-                        <div   id = "instagramimage"></div>
-                        <h3 id = "instagramlink">Intsagram</h3>
-                    </div>
-                    <div id = "linkedin">
-                        <div id = "linkedinimage"></div>
-                        <h3 id = "linkedinlink">linkedin</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
+             </div>
     )
 }
 export default About;

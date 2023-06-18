@@ -25,52 +25,112 @@ function Home()
                 <div className= "image-animation"></div>
             </div>
 
-
-
-
-
-
             <div className= "middlePart">
                 <div className = "container">
                     <div id = "imageDiv">
                         <div className="round1 skin"></div>
-                        <div className= "round"></div>
-                        <div className= "round"></div>
-                        <div className= "round"></div>
+                        <div className= "round gastro"></div>
+                        <div className= "round respirator"></div>
+                        <div className= "round heart"></div>
                     </div>
                     <div id = "textdiv">
                         <div className= "textDiv1">
-                            <h3>Skin diseases</h3>
+                            <h3>Plants useful in Skin care</h3>
                             <p>Aloevera</p>
+                            <p>Tulsi</p>
+                            <p>Amla</p>
+                            <p>Ashwagandha</p>
+                            <p>Neem</p>
                         </div>
-                        <div className= "textDiv"></div>
-                        <div className= "textDiv"></div>
-                        <div className= "textDiv"></div>
+                        <div className= "textDiv">
+                            <h3>Plants useful to health of gastro-intestine</h3>
+                            <p>Aloevera</p>
+                            <p>Tulsi</p>
+                            <p>fenugreek </p>
+                            <p>Moringa oleifera</p>
+                        </div>
+                        <div className= "textDiv">
+                            <h3>Plants useful to the health of Respiratory tract</h3>
+                            <p>Ephedra </p>
+                            <p>Garlic</p>
+                            <p>Thymus vulgaris</p>
+                            <p>Eucalyptus </p>
+                        </div>
+                        <div className= "textDiv">
+                            <h3>Plants useful for the Heart heath</h3>
+                            <p>Amaranthus Viridis</p>
+                            <p>nerium oleander</p>
+                            <p>Tinospora cordifolia</p>
+                            <p>bombax ceiba</p>
+                        </div>
                     </div>
                 </div> 
 
 
                 <div className = "container">
                     <div id = "imageDiv">
-                        <div className="round1"></div>
-                        <div className= "round"></div>
-                        <div className= "round"></div>
-                        <div className= "round"></div>
+                        <div className="round1 goiter"></div>
+                        <div className= "round jaundice"></div>
+                        <div className= "round poisonous"></div>
+                        <div className= "round cancer"></div>
                     </div>
                     <div id = "textdiv">
-                        <div className= "textDiv1"></div>
-                        <div className= "textDiv"></div>
-                        <div className= "textDiv"></div>
-                        <div className= "textDiv"></div>
+                        <div className= "textDiv1">
+                            <h3>medicinal plants useful to cure goiter</h3>
+                            <p>Black Walnut </p>
+                            <p>Ashwagandha</p>
+                            <p>coleus</p>
+                            <p>bugleweed</p>
+                        </div>
+                        <div className= "textDiv">
+                            <h3>medicinal plants useful to cure jaundice</h3>
+                            <p>Phyllanthus amarus</p>
+                            <p>Andrographis paniculata</p>
+                            <p>Eclipta alba</p>
+                            <p>Tinospora cordifolia</p>
+                        </div>
+                        <div className= "textDiv">
+                            <h3>medicinal plants useful to cure poisonous bites</h3>
+                            <p>Aloe Vera</p>
+                            <p>Calendula</p>
+                            <p>Echinacea </p>
+                            <p>Plantain</p>
+                        </div>
+                        <div className= "textDiv">
+                            <h3>medicinal plants useful to cure cancer</h3>
+                            <p>Ginseng</p>
+                            <p>Graviola </p>
+                            <p>Moringa</p>
+                            <p>Turmeric </p>
+                        </div>
                     </div>
                 </div>
             </div> 
 
 
-            <div className= "horizontalDiv"></div>
+            <div className= "horizontalDiv">
+                <h3 className="horizontalText">Nature is the master of healing, and medicinal plants are its greatest gift to humanity</h3>
+                <p className= "importance">Medicinal plants provide natural remedies for various health conditions. They contain active compounds <br></br>with therapeutic properties that can help alleviate symptoms, promote healing, and support overall well-being.</p>
+            </div>
 
-            <div className= "largeDiv"></div>
-            <div className= "lastHorizontal"></div>
+            <div className= "largeDiv">
+                <div className= "firstDiv">
+                    <div className= "horizontalBox Aloe"></div>
+                    <div className= "horizontalBox cactus"></div>
+                    <div className= "horizontalBox belaku"></div>
+                    <div className= "horizontalBox bluecolor"></div>
+                </div>
+                <div className= "secondDiv">
+                    <div className= "horizontalBox nalleru"></div>
+                    <div className= "horizontalBox medicinalPlant"></div>
+                    <div className= "horizontalBox jilledu"></div>
+                    <div className= "horizontalBox vusiri"></div>
+                </div>
+            </div>
+            <div className= "lastHorizontal">
+                <p className= "lastText">Medicinal plants are essential for natural remedies and healing various health conditions.They offer accessible <br></br>and affordable healthcare options, particularly for communities with limited access to modern medicine. Medicinal plants preserve cultural and traditional knowledge,<br></br> representing a rich heritage of natural healing practices. Their sustainable cultivation supports the environment,<br></br> while their potential for drug discovery holds promise for innovative treatments</p>
+
+                </div>
 
 
             <div id = "footer">

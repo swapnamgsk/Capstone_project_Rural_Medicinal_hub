@@ -10,12 +10,11 @@
 }
 #logo
 {
-    width : 80px;
-    height : 80px;
+    padding : 10px 40px;
     margin-left : 20px;
-    background-image : url('../../public/Resource/photo.jpg');
+    background-image : url('../../public/Resource/image16.png');
+    background-size: 75px;
     border-radius : 500px;
-    background-size : 100px;
 }
 #home
 {
@@ -191,7 +190,7 @@ p
 }
 .usiri
 {
-    background-image : url('../../public/Resource/usiri.png');
+    background-image : url('../../public/Resource/Usiri.png');
     background-size : cover;
 }
 
@@ -269,7 +268,7 @@ p
 }
 #socialmedialinks
 {
-    margin-left: 200px;
+    margin-left: 350px;
     margin-top : 30px;
 }
 #facebook

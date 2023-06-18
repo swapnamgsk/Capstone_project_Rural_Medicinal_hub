@@ -108,8 +108,6 @@ a
 {
     width : 40%;
     height : 100%;
-    background-image: url('../../public/Resource/image19.png');
-    background-size : cover;
     animation : image-animation 10s infinite;
 }
 @keyframes image-animation {
@@ -127,7 +125,6 @@ a
 {
     width: 80%;
     height: 500px;
-    border : 1px solid black;
     border-radius : 10px;
     margin-top : 70px;
     margin-left : 180px;
@@ -137,8 +134,6 @@ a
 {
     width : 300px;
     height : 250px;
-    border : 1px solid black;
-    /* margin-top : 10px; */
     margin-bottom : 300px;
     border-radius : 200px;
 }
@@ -146,8 +141,6 @@ a
 {
     width : 300px;
     height : 250px;
-    border : 1px solid black;
-    /* margin-top : 10px; */
     margin-left : 100px;
     margin-bottom : 300px;
     border-radius : 200px;
@@ -157,15 +150,46 @@ a
     background-image : url('../../public/Resource/skin.png');
     background-size : cover;
 }
-
-
-
+.gastro
+{
+    background-image : url('../../public/Resource/digestiveSystem.png');
+    background-size : 270px 250px;
+}
+.respirator
+{
+    background-image : url('../../public/Resource/Respiratory.png');
+    background-size : 320px 240px;
+}
+.heart
+{
+    background-image : url('../../public/Resource/heart.png');
+    background-size : cover;
+}
+.goiter
+{
+    background-image : url('../../public/Resource/goiter.png');
+    background-size : 220px 230px;
+}
+.jaundice
+{
+    background-image : url('../../public/Resource/jaundice.png');
+    background-size : 200px 300px;
+}
+.poisonous
+{
+    background-image : url('../../public/Resource/poisonous.png');
+    background-size : 220px 230px;
+}
+.cancer
+{
+    background-image : url('../../public/Resource/cancer.png');
+    background-size : 240px 230px;
+}
 
 #imageDiv
 {
     width : 100%;
     height : 50%;
-    border : 1px solid black;
     display: flex;
 }
 
@@ -177,32 +201,50 @@ a
 {
     width : 300px;
     height : 250px;
-    border : 1px solid black;
     text-align: center;
 }
 .textDiv
 {
     width : 300px;
     height : 250px;
-    border : 1px solid black;
     margin-left : 80px;
-
+    text-align: center;
 }
 
+/* ///////////////////////////////////////////////////////////////////// */
 .horizontalDiv
 {
     width : 100%;
     height : 450px;
     border : 1px solid black;
     margin-top : 100px;
-    background-image : url('../../public/Resource/Background.png');
-    
+    animation : horizontalDiv 10s infinite;
+    animation-direction: reverse;
+    text-align: center;
+}
+@keyframes horizontalDiv{
+   0%{ background-image: url('../../public/Resource/Background.png'); background-size: cover;}
+   33%{ background-image: url('../../public/Resource/mainimage.png');  background-size: cover;}
+   66%{ background-image: url('../../public/Resource/kuraku1.png');  background-size: cover;}
+   100%{ background-image: url('../../public/Resource/image19.png');  background-size: cover;}
+}
+
+
+
+.horizontalText
+{
+    margin-top : 80px;
+    font-size: 25px;
+}
+.importance
+{
+    font-size : 20px;
+    line-height : 50px;
 }
 .largeDiv
 {
     width: 80%;
     height: 800px;
-    border : 1px solid black;
     border-radius : 10px;
     margin-top : 70px;
     margin-left : 180px;
@@ -213,20 +255,79 @@ a
     height : 450px;
     border : 1px solid black;
     margin-top : 100px;
+    background-image: url('../../public/Resource/lastdivimage.png');
+    background-size: 1800px 500px;
+    text-align : center;
 }
-
-
-
-
-
-
-/* .skin
+.firstDiv
 {
-    background-image : url('../../public/Resource/skin.png');
+    width : 100%;
+    height : 50%;
+    display : flex;
+}
+.secondDiv
+{
+    width : 100%;
+    height : 50%;
+    display : flex;
+}
+.horizontalBox
+{
+    width : 25%;
+    height : 90%;
+}
+.Aloe
+{
+    background-image : url('../../public/Resource/aloevera.png');
     background-size : cover;
-} */
-
-
+}
+.cactus
+{
+    background-image : url('../../public/Resource/cactus.png');
+    background-size : cover;
+    margin-left : 30px;
+}
+.belaku
+{
+    background-image : url('../../public/Resource/belaku.png');
+    background-size : cover;
+    margin-left : 30px;
+    margin-right : 30px;
+}
+.bluecolor
+{
+    background-image : url('../../public/Resource/bluecolor.png');
+    background-size : cover;
+}
+.nalleru
+{
+    background-image : url('../../public/Resource/nalleru.png');
+    background-size : cover;
+}
+.medicinalPlant
+{
+    background-image : url('../../public/Resource/medicinal.png');
+    background-size : cover;
+    margin-left: 30px;
+}
+.jilledu
+{
+    background-image : url('../../public/Resource/gilledu.png');
+    background-size : cover;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.vusiri
+{
+    background-image : url('../../public/Resource/Usiri.png');
+    background-size : cover;
+}
+.lastText
+{
+    line-height : 50px;
+    font-size : 20px;
+    margin-top : 120px;
+}
 #footer
 {
     width: 95%;
@@ -279,7 +380,7 @@ p
 }
 #socialmedialinks
 {
-    margin-left: 200px;
+    margin-left: 350px;
     margin-top : 30px;
 }
 #facebook

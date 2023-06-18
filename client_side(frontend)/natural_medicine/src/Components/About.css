@@ -181,6 +181,7 @@ h1
     height : 800px;
     border : 1px solid black;
     border-radius : 10px;
+    margin-left : 130px;
     justify-content: center;
 }
 .nalleruimage
@@ -233,12 +234,14 @@ h3
 #contact
 {
     width : 30%;
+    border : 1px solid black;
     /* margin-left : 50px; */
     margin-top : 50px;
 }
 #email-address
 {
     display : flex;
+    margin-right : 200px;
 }
 #mobilenumber
 {

@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Home from './Components/Home';
-// import Signup from './Components/Signup';
-// import Login from './Components/Login';
-// import Forgot from './Components/Forgot';
-// import About from './Components/About';
-// import PlantResource from './Components/PlantResouce';
+import Home from './Components/Home';<br></br>
+// import Signup from './Components/Signup';<br></br>
+// import Login from './Components/Login';<br></br>
+// import Forgot from './Components/Forgot';<br></br>
+// import About from './Components/About';<br></br>
+import PlantResource from './Components/PlantResouce';
 
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
       .<Forgot/><br></br> */}
       {/* <About/> */}
 
-      {/* <PlantResource/> */}
+      <PlantResource/>
     </div>
   );
 }
