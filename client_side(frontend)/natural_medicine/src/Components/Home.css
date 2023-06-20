@@ -48,7 +48,7 @@
     font-style: normal;
     font-size : 20px;
 }
-.main
+.Main
 {
     width : 100%;
     height : 750px;
@@ -70,13 +70,13 @@
     border : 1px solid black;
     border-radius : 15px;
 }
-h1
+.mainheading
 {
     font-size : 50px;
-    text-align: center;
+    margin-left : 350px;
     margin-top : 100px;
 }
-h2
+.secondheading
 {
     font-size : 40px;
     text-align: center;
@@ -90,19 +90,14 @@ a
 {
     font-size : 30px;
     line-height : 60px;
-    margin-left : 280px;
+    text-align: center;
 }
-#para
-{
-    font-size : 30px;
-    line-height : 60px;
-    margin-left : 180px;
-}
+
 .lastLine
 {
-    margin-left : 320px;
     margin-top : 150px;
     font-size : 18px;
+    text-align: center;
 }
 .image-animation
 {
@@ -207,7 +202,14 @@ a
 {
     width : 300px;
     height : 250px;
-    margin-left : 80px;
+    margin-left : 100px;
+    text-align: center;
+}
+.textDiv2
+{
+    width : 300px;
+    height : 250px;
+    margin-left : 120px;
     text-align: center;
 }
 
@@ -225,7 +227,7 @@ a
 @keyframes horizontalDiv{
    0%{ background-image: url('../../public/Resource/Background.png'); background-size: cover;}
    33%{ background-image: url('../../public/Resource/mainimage.png');  background-size: cover;}
-   66%{ background-image: url('../../public/Resource/kuraku1.png');  background-size: cover;}
+   66%{ background-image: url('../../public/Resource/kuraku1.png');  background-size: cover;} 
    100%{ background-image: url('../../public/Resource/image19.png');  background-size: cover;}
 }
 
@@ -348,7 +350,7 @@ a
 }
 #heading2
 {
-    margin-right : 400px;
+    margin-left : -80px;
 }
 #contact
 {
@@ -368,7 +370,7 @@ a
     display : flex;
 }
 
-p
+.bottomText
 {
     margin-top :20px;
     margin-left : 10px;
@@ -455,7 +457,7 @@ p
     margin-left : 15px;
     margin-top : 26px;
 }
- h2
+.CONTACT
 {
     margin-right :30px;
 }

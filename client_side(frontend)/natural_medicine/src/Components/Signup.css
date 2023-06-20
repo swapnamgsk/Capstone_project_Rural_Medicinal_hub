@@ -1,4 +1,4 @@
-#container
+#Container
 {
     height : 810px;
     display : flex;
@@ -13,7 +13,7 @@
     background-size : 650px;
 }
 
-h2
+.nature
 {
     color : white;
     margin-top : 150px;
@@ -21,7 +21,7 @@ h2
     font-size : 30px;
     line-height : 45px;
 }
-p
+.sidetext
 {
     margin-left : 680px;
     margin-top : 30px;

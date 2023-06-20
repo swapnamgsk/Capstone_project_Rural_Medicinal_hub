@@ -16,73 +16,50 @@ function About()
 
 
 
-            <h1>In a nutshell about us</h1>
-            <div className = "aboutus">
-                <div className = "flowerimage"></div>
-                <div className="text">
-                    <p className="subheading">Welcome to the Rural Medicinal Hub</p>
-                    <p className="paragraph">Rural Medicinal Hub is a passion project dedicated to raising awareness about the incredible healing properties of medicinal plants found in rural areas. Our mission is to connect individuals with the wisdom of traditional herbal remedies and promote the sustainable use of local flora for better health and well-being.</p>
-                </div>   
-            </div>
-            <div className = "purpose">
-                    <p className="ourpurpose">Our Purpose</p>
-                    <div className = "div">
-                        <div>
-                            <div className="one">1</div>
-                            <p className="paragraph">Rural Medicinal Hub was founded with the belief that nature has provided us with a vast pharmacy of healing plants.</p>
-                        </div>
-
-                        <div id = "middiv">
-                            <div className="two">2</div>
-                            <p className="paragraph"> We aim to shed light on the medicinal plants that grow abundantly in rural areas, often overlooked by modern medicine.</p> 
-                        </div>
-
-                        <div>
-                            <div className="three">3</div>
-                            <p className="paragraph">By sharing knowledge and fostering an appreciation for these natural remedies, we hope to empower individuals to take charge of their own health.</p>
-                         </div>
+            <div id = "Footer">
+                <div id = "Homepart">
+                    <h2 id = "Heading2">Home</h2>
+                    <p className="TEXT">About</p>
+                    <p className="TEXT">Collections</p>
+                    <p className="TEXT">Plant resources</p>
+                    <p className="TEXT">Services</p>
+                </div>
+                <div id = "Contact">
+                    <h2 className="Heading3">Contact us</h2>
+                    <div id = "Email-address">
+                         <h3>Email Adress :  </h3>
+                         <p className="TEXT">mgswappna1911@gmail.com</p>
                     </div>
-            </div>
-            <div id="purpose2">
-                <div id = "lefttwobox">
-                    <div className = "box1">
-                        <div className = "picture"></div>
-                        <div className="text">
-                            <p className="subheading">Why Rural Herbology?</p>
-                            <p className="paragraph">Rural Medicinal HUb was born out of a deep love for nature and a desire to revive ancient healing traditions. With a focus on rural areas, we aim to preserve the local wisdom passed down through generations, while also highlighting the importance of sustainable practices and ecological preservation.</p> 
-                        </div>
-                    </div>  
-
-                    <div className = "box1">
-                        <div className = "greenleaf"></div> 
-                        <div className="text">
-                            <p className="subheading">Our Approach</p>
-                            <p className="paragraph">As a solo endeavor, Rural Medicinal Hub is driven by a passionate individual committed to exploring, researching, and sharing the knowledge of rural medicinal plants. Through extensive research, personal experiences, and collaborations with local experts, we strive to provide reliable and accurate information about the identification, properties, and traditional uses of various plants.</p>
-                        </div>
+                    <div id = "Mobilenumber">
+                        <h3>Mobile number : </h3>
+                        <p className="TEXT">9177939170</p>
+                    </div>
+                    <div id = "ADDRESS">
+                        <h3>Adress : </h3>
+                        <p className="TEXT">2-20/Jeedimakulapalli,gangavaram<br/>Chittor,AP</p>
                     </div>
                 </div>
-
-                <div id = "singlebox">
-                    <div className = "box">
-                        <div className = "nalleruimage"></div>    
-                        <div>
-                            <p className="subheading">Join the Community</p>
-                            <p className="paragraph">We invite you to become a part of the Rural Medicinal Hub community and embark on a journey of discovering the hidden treasures of rural medicinal plants. By joining our newsletter, you'll receive regular updates on new plant profiles, herbal remedies, educational resources, and community initiatives. Together, we can learn, share, and grow in our understanding and appreciation of nature's remedies.</p>  
-                        </div> 
-                    </div> 
+                <div id = "Socialmedialinks">
+                    <h2 id = "Socialmedia">Social media</h2>
+                    <div id = "Facebook">
+                        <div id = "Facebookimage"></div>
+                        <h3 id = "Facebooklink">Facebook</h3>
+                    </div>
+                    <div id = "Twitter">
+                        <div id = "Twitterimage"></div>
+                        <h3 id = "Twitterlink">Twitter</h3>
+                    </div>
+                    <div id = "Instagram">
+                        <div   id = "Instagramimage"></div>
+                        <h3 id = "Instagramlink">Intsagram</h3>
+                    </div>
+                    <div id = "Linkedin">
+                        <div id = "Linkedinimage"></div>
+                        <h3 id = "Linkedinlink">linkedin</h3>
+                    </div>
                 </div>
             </div>
-
-
-            <div className = "contact">
-                <div className="text">
-                    <p className="subheading1">Contact Us</p>
-                    <p className="paragraph">Your feedback and inquiries are essential to us. If you have any questions, suggestions, or would like to share your own experiences with rural medicinal plants, please feel free to reach out. You can contact us at [email protected], and we will do our best to respond promptly.</p>
-                </div>
-             </div> 
-             <h3>Thank you for joining us on this exciting exploration of rural Medicinal Hub!</h3>   
-          
-             </div>
+        </div>
     )
 }
 export default About;

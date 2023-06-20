@@ -12,14 +12,13 @@ function Home()
                 <p id = "resource">Plant collections</p>
                 <p id = "signup">Signup</p>
             </div>
-
-            <div className= "main">
+            <div className= "Main">
                 <div className= "box1">
                 <button id = "anchorbutton"><a href = "https://www.youtube.com/watch?v=-a-Pu5fi6wo" className= "anchor"> Watch a small over view on Rural medicinal hub</a></button>
-                    <h1>Rural medicinal hub</h1>
-                    <h2>A Journey into Rural Medicinal Plant Knowledge</h2>
+                    <h1 className= "mainheading">Rural medicinal hub</h1>
+                    <h2 className= "secondheading">A Journey into Rural Medicinal Plant Knowledge</h2>
                     <p className = "para">Nature is the master of healing, and </p> 
-                    <p id = "para">medicinal plants are its greatest gift to humanity.</p>
+                    <p className = "para">medicinal plants are its greatest gift to humanity.</p>
                     <p className= "lastLine">Every plant is a pharmacy, waiting to be discovered</p>
                 </div>
                 <div className= "image-animation"></div>
@@ -56,7 +55,7 @@ function Home()
                             <p>Thymus vulgaris</p>
                             <p>Eucalyptus </p>
                         </div>
-                        <div className= "textDiv">
+                        <div className= "textDiv2">
                             <h3>Plants useful for the Heart heath</h3>
                             <p>Amaranthus Viridis</p>
                             <p>nerium oleander</p>
@@ -96,8 +95,8 @@ function Home()
                             <p>Echinacea </p>
                             <p>Plantain</p>
                         </div>
-                        <div className= "textDiv">
-                            <h3>medicinal plants useful to cure cancer</h3>
+                        <div className= "textDiv2">
+                            <h3>medicinal plants useful to prevent cancer</h3>
                             <p>Ginseng</p>
                             <p>Graviola </p>
                             <p>Moringa</p>
@@ -136,24 +135,24 @@ function Home()
             <div id = "footer">
                 <div id = "homepart">
                     <h2 id = "heading2">Home</h2>
-                    <p>About</p>
-                    <p>Collections</p>
-                    <p>Plant resources</p>
-                    <p>Services</p>
+                    <p className= "bottomText">About</p>
+                    <p className= "bottomText">Collections</p>
+                    <p className= "bottomText">Plant resources</p>
+                    <p className= "bottomText">Services</p>
                 </div>
                 <div id = "contact">
-                    <h2>Contact us</h2>
+                    <h2 className= "CONTACT">Contact us</h2>
                     <div id = "email-address">
                          <h3>Email Adress :  </h3>
-                         <p>mgswappna1911@gmail.com</p>
+                         <p className= "bottomText">mgswappna1911@gmail.com</p>
                     </div>
                     <div id = "mobilenumber">
                         <h3>Mobile number : </h3>
-                        <p>9177939170</p>
+                        <p className= "bottomText">9177939170</p>
                     </div>
                     <div id = "Address">
                         <h3>Adress : </h3>
-                        <p>2-20/Jeedimakulapalli,gangavaram<br/>Chittor,AP</p>
+                        <p className= "bottomText">2-20/Jeedimakulapalli,gangavaram<br/>Chittor,AP</p>
                     </div>
                 </div>
                 <div id = "socialmedialinks">

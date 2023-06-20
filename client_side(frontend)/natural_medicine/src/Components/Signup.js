@@ -4,12 +4,12 @@ import './Signup.css';
 
 function Signup(){
     return(
-        <div id = "container">
+        <div id = "Container">
             <div id = "smallcontainer">
-                <h2>Uncover, Unlock, Empower:<br/> Nature's Wisdom.</h2>
+                <h2 className="nature">Uncover, Unlock, Empower:<br/> Nature's Wisdom.</h2>
             </div>
             <div>
-            <p>Already have Account ?<button id = "loginbutton">LOGIN</button></p>
+            <p className="sidetext">Already have Account ?<button id = "loginbutton">LOGIN</button></p>
             <h1 id = "heading">Connnect with us</h1>
             <div id = "main">
                 <input type = "text" placeholder = "Name"  id = "name"/>

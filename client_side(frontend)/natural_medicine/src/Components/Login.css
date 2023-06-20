@@ -1,14 +1,11 @@
-#container
+#CONTAINER
 {
     height : 810px;
     display : flex;
     border : 1px solid black;
     background-size : cover;
 }
-h1
-{
-    margin-top : 60px;
-}
+
 #firstbox
 {
     width : 650px;
@@ -17,9 +14,10 @@ h1
     background-image : url('../../public/Resource/login1.png');
     background-size : cover;
 }
-#heading
+#HEADING
 {
     margin-top : 150px;
+    margin-top : 60px;
 }
 #Main
 {

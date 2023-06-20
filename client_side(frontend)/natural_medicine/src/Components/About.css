@@ -10,15 +10,15 @@
 }
 #logo
 {
-    width : 80px;
-    height : 80px;
+    padding : 10px 40px;
     margin-left : 20px;
-    border-radius : 500px;
     background-image : url('../../public/Resource/image16.png');
-    background-size : 75px;
+    background-size: 75px;
+    border-radius : 500px;
 }
 #home
 {
+    padding : 0px 40px 85px 40px;
     margin-left : 800px;
     margin-top : 30px;
     font-style: normal;
@@ -26,6 +26,7 @@
 }
 #about
 {
+    padding : 0px 40px 85px 40px;
     margin-left : 70px;
     margin-top : 30px;
     font-style: normal;
@@ -33,6 +34,7 @@
 }
 #resource
 {
+    padding : 0px 40px 85px 40px;
     margin-left : 70px;
     margin-top : 30px;
     font-style: normal;
@@ -40,176 +42,19 @@
 }
 #signup
 {
+    padding : 0px 40px 85px 40px;
     margin-left : 70px;
     margin-top : 30px;
     font-style: normal;
     font-size : 20px;
 }
-h1
-{
-    margin-left : 210px;
-}
-.aboutus
-{
-    width : 1200px;
-    height : 350px;
-    margin-left : 200px;
-    margin-right : 200px;
-    display : flex;
-}
-.flowerimage
-{
-    width :30%;
-    height : 300px;
-    margin-top : 25px;
-    background-image : url('../../public/Resource/flowers.png');
-    background-size : cover;
-}
-.text
-{
-    width : 65%;
-    height : 300px;
-    margin-left : 60px;
-    margin-top : 25px;
-}
-
-.subheading
-{
-    color : brown;
-    font-size : 25px;
-}
-.subheading1
-{
-    color : brown;
-    font-size : 25px;
-    margin-left :250px;
-}
-.paragraph
-{
-    /* left: 150px; */
-    line-height : 40px; 
-    font-size : 18px;
-}
-.purpose
-{
-    width : 100%;
-    height : 350px;
-}
-.ourpurpose
-{
-    margin-left : 680px;
-    color : brown;
-    font-size : 25px;
-
-}
-.div
-{
-    width : 1200px;
-    height : 350px;
-    margin-left : 200px;
-    margin-right : 200px;
-    display: flex;
-}
-#middiv
-{
-    margin-left : 20px;
-    margin-right : 20px;
-}
-.one
-{
-    margin-top :10px 20px;
-    margin-right : 135px;
-    margin-left : 130px;
-    padding : 30px;
-    border : 1px solid black;
-    border-radius : 100px;
-}
-.two
-{
-    margin-top :10px 20px;
-    margin-right : 140px;
-    margin-left : 140px;
-    padding : 30px;
-    border : 1px solid black;
-    border-radius : 100px;
-}
-.three
-{
-    margin-top :10px 20px;
-    margin-right : 180px;
-    margin-left : 185px;
-    padding : 30px;
-    border : 1px solid black;
-    border-radius : 100px;
-}
-#purpose2
-{
-    width : 100%;
-    height : 850px;
-    display : flex;
-}
-.box1
-{
-    width : 800px;
-    height : 400px;
-    margin-left : 200px;
-    display: flex;
-}
-.picture
-{
-    width : 400px;
-    height : 250px;
-    background-image : url('../../public/Resource/Usiri.png');
-    background-size : cover;
-    margin-top : 70px;
-}
-.text
-{
-    margin-left : 10px;
-}
-.greenleaf
-{
-    width : 400px;
-    height : 250px;
-    background-image : url('../../public/Resource/string.png');
-    background-size : 340px 300px;
-    margin-top : 70px;
-}
-#singlebox
-{
-    width : 450px;
-    height : 800px;
-    border : 1px solid black;
-    border-radius : 10px;
-    margin-left : 130px;
-    justify-content: center;
-}
-.nalleruimage
-{
-    width : 400px;
-    height : 250px;
-    background-image : url('../../public/Resource/tridax.jpg');
-    background-size : cover;
-    margin-top : 30px;
-    margin-left : 20px;
-}
-.contact
-{
-    margin-top : 150px;
-    margin-left : 380px;
-}
-
-h3
-{
-    margin-left : 380px;
-}
 
 
 
 
 
 
-#footer
+#Footer
 {
     width: 95%;
     height: 400px;
@@ -221,57 +66,54 @@ h3
     background-color : #212121;
     color : white;
 }
-#homepart
+#Homepart
 {
     width : 30%; 
     margin-top : 60px;
     margin-left : 80px;
 }
-#heading2
+#Heading2
 {
-    margin-left : 10px;
+    margin-left : -80px;
 }
-#contact
+#Contact
 {
-    width : 30%;
-    border : 1px solid black;
-    /* margin-left : 50px; */
+    margin-left : 50px;
     margin-top : 50px;
 }
-#email-address
-{
-    display : flex;
-    margin-right : 200px;
-}
-#mobilenumber
+#Email-address
 {
     display : flex;
 }
-#Address
+#Mobilenumber
+{
+    display : flex;
+}
+#ADDRESS
 {
     display : flex;
 }
 
-p
+.TEXT
 {
     margin-top :20px;
     margin-left : 10px;
     line-height : 20px;
 }
-#socialmedia
+#Socialmedia
 {
     margin-left : 20px;
 }
-#socialmedialinks
+#Socialmedialinks
 {
-    width : 30%;
+    margin-left: 350px;
     margin-top : 30px;
 }
-#facebook
+#Facebook
 {
     display : flex;
 }
-#facebookimage
+#Facebookimage
 {
     background-image : url('../../public/Resource/facebook1.png');
     background-size : 50px;
@@ -280,16 +122,16 @@ p
     border-radius : 30px;
     margin-top : 10px;
 }
-#facebooklink
+#Facebooklink
 {
     margin-left : 15px;
     margin-top : 26px;
 }
-#twitter
+#Twitter
 {
     display : flex;
 }
-#twitterimage
+#Twitterimage
 {
     background-image : url('../../public/Resource/twitter.png');
     background-size : 50px;
@@ -298,16 +140,16 @@ p
     height : 50px;
     margin-top : 10px;
 }
-#twitterlink
+#Twitterlink
 {
     margin-left : 15px;
     margin-top : 26px;
 }
-#instagram
+#Instagram
 {
     display : flex;
 }
-#instagramimage
+#Instagramimage
 {
     background-image : url('../../public/Resource/instagram.jpeg');
     background-size : 50px;
@@ -316,16 +158,16 @@ p
     height : 50px;
     margin-top : 10px;
 }
-#instagramlink
+#Instagramlink
 {
     margin-left : 15px;
     margin-top : 26px;
 }
-#linkedin
+#Linkedin
 {
     display: flex;
 }
-#linkedinimage
+#Linkedinimage
 {
     background-image : url('../../public/Resource/linkedin.png');
     background-size : 50px;
@@ -334,12 +176,12 @@ p
     height : 50px;
     margin-top : 10px;
 }
-#linkedinlink
+#Linkedinlink
 {
     margin-left : 15px;
     margin-top : 26px;
 }
- /* h2
+.Heading3
 {
     margin-right :30px;
-} */
+}
