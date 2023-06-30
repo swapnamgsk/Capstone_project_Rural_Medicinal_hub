@@ -44,179 +44,58 @@
     font-style: normal;
     font-size : 20px;
 }
-h2
+.searchPart
 {
-    text-align :center;
+    display: flex;
 }
-
-
-#firstdiv
+.phytohead
 {
-    width :850px;
-    height : 500px;
+    margin-top : 80px;
+    margin-left : 30px;
 }
-#seconddiv
+span
 {
-    width : 850px;
-    height:500px;
-    margin-left : 10px;
-    background-image : url('../../public/Resource/Background.png');
-    background-size: 700px;
+    color : green;
 }
-.background
+.name
+{
+    margin-top : 60px;
+    margin-bottom : 40px;
+    margin-left : 400px;
+    padding : 20px 100px 20px 200px;
+    border-radius : 20px;
+}
+.Searchbutton
+{
+    margin-top : 65px;
+    margin-bottom : 45px;
+    margin-left : 20px;
+    padding : 10px 25px;
+    border-radius : 10px;
+}
+.DisplayFlex
 {
     width : 100%;
-    height:500px;
+    height : 350px;
     border : 1px solid black;
     display: flex;
 }
-.inputpart
+
+.plant
 {
-    width : 850px;
-    height : 350px;
+    width : 250px;
+    height : 250px;
     border : 1px solid black;
-    display : flex;
-    margin-top : 40px;
+    border-radius : 200px;
+    margin-left : 57px;
+    margin-top : 45px;
 }
-.searchpart
+.databaseData
 {
-    width : 35%;
-    height : 87%;
-    border : 1px solid black;
-    margin-top : 20px;
-    margin-bottom : 20px;
-    margin-left : 30px;
-}
-.input
-{
-    width : 100%;
     height : 80%;
-    border : none;
-    background-color: transparent;
-    
-    
-}
-.image
-{
-    width : 50px;
-    height : 15%;
-    background-image : url('../../public/Resource/camera.png');
-    background-size : 55px;
-    margin : auto;
-    border-radius : 15px;
-}
-.outputimage
-{
-    width : 70%;
-    height :87%;
-    border : 1px solid black;
-    margin-top : 20px;
-    margin-bottom : 20px;
-    margin-left : 30px;
-    margin-right : 30px;
-}
-h1
-{
-    margin-left : 160px;
-}
-.largecard
-{
-    width : 80%;
-    height : 500px;
-    margin : auto;
-    display : flex;
-    margin-bottom : 40px;
-}
-.smallcard1
-{
-    width : 33%;
-    height : 100%;
-}
-.smallcard
-{
-    width : 33%;
-    height : 100%;
-    margin-left : 30px;
-}
-p
-{
-    line-height : 28px;
-}
-.card
-{
     width : 100%;
-    height : 70%;
-    
+    background-color : rgb(172, 167, 167);
 }
-.thotakura
-{
-    background-image : url('../../public/Resource/kuraku1.png');
-    background-size : cover;
-}
-.kapparillaku
-{
-    background-image : url('../../public/Resource/kapparillaku.png');
-    background-size : cover;
-}
-.tridax
-{
-    background-image : url('../../public/Resource/tridax.jpg');
-    background-size : cover;
-}
-.aloevera
-{
-    background-image : url('../../public/Resource/aloevera.png');
-    background-size : cover;
-}
-.tulasi
-{
-    background-image : url('../../public/Resource/tulasi.png');
-    background-size : cover;
-}
-.aswagandha
-{
-    background-image : url('../../public/Resource/aswagandha.png');
-    background-size : cover;
-}
-.medicinal
-{
-    background-image : url('../../public/Resource/munaga.png');
-    background-size : cover;
-}
-.jilledu
-{
-    background-image : url('../../public/Resource/gilledu.png');
-    background-size : cover;
-}
-.usiri
-{
-    background-image : url('../../public/Resource/Usiri.png');
-    background-size : cover;
-}
-
-.bottomdiv
-{
-    width :100%;
-    height : 300px;
-    border : 1px solid black;
-    margin-top : 100px;
-    background-image : url('../../public/Resource/medicinalplant.png');
-    background-size : 1000px 700px;
-}
-#bottomtext
-{
-    text-align: center;
-    margin-top : 30px;
-    line-height : 45px;
-    font-size : 18px;
-}
-
-
-
-
-
-
-
 #footer
 {
     width: 95%;
@@ -343,4 +222,68 @@ p
     margin-left : 15px;
     margin-top : 26px;
 }
- 
+
+
+
+
+
+
+
+
+
+
+
+#heading
+{
+    text-align: center;
+    /* margin-top : 100px; */
+}
+#AllPlantsDiv
+{
+    width : 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Plants
+{
+    width : 25%;
+    height : 450px;
+    border : 1px solid black;
+    border-radius : 15px;
+    background-color : white;
+    display: flex;
+    text-align :center; 
+    margin-top : 50px;
+    margin-bottom : 50px;
+    margin-left : 90px;
+}
+.Plants:hover{
+    cursor: pointer;
+}
+
+.padding{
+    padding: 5px 100px 100px 75px;
+}
+.plantName
+{
+    margin-right : 70px;
+}
+.Details
+{
+    line-height: 27px;
+    margin-right : 60px;
+}
+.imageDiv
+{
+    width : 250px;
+    height : 250px;
+    border : 1px solid black;
+    margin-right : 70px;
+}
+button:hover{
+    cursor: pointer;
+}
+
+h4:hover{
+    cursor: pointer;
+}

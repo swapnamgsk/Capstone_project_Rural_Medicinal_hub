@@ -1,8 +1,44 @@
-import React from 'react';
+// import React from 'react';
 import './PlantResource.css';
+import {useState,useEffect} from 'react';
 
-function PlantResource()
-{
+
+
+const PlantResource = () =>{
+    const [data,setData] = useState([]);
+    const [inputValue, setInputValue] = useState('');
+  
+
+  useEffect(()=>{
+        fetchData();
+    },[])
+    const fetchData = () =>{
+        fetch("http://localhost:5500/data").then((res) =>{
+            return res.json();
+        }).then((res)=>{
+            setData(res);
+            console.log(res);
+        })
+    }
+
+
+
+    const searchPlant = () =>{
+        fetch(`http://localhost:5500/search/${inputValue}`).then((res) =>{
+            return res.json();
+        }).then((res)=>{
+            setData(res);
+            console.log(res);
+        })
+    }
+    
+    const handleInputChange = (event) =>{
+        setInputValue(event.target.value);
+
+    }
+   
+
+
     return(
         <div>
             <div id = "navbar">
@@ -12,86 +48,46 @@ function PlantResource()
                 <p id = "resource">Plant collections</p>
                 <p id = "signup">Signup</p>
             </div>
-            <div className= "background">
-                <div id = "firstdiv">
-                    <h2>Search Here</h2>
-                    <div className = "inputpart">
-                        <div className= "searchpart">
-                            <input type = "type" placeholder = "Search by Plant image" className= "input"/>
-                            <div className= "image"></div>
-                        </div>
-                        <div className= "outputimage"></div>
+
+            <div className='searchPart'>
+                <h2 className='phytohead'>Adopt Healthy lifestyle By <span>PhytoMedicals</span></h2>
+                <input type = "text" placeholder= "Search Here" className= "name" onChange ={handleInputChange} value = {inputValue} />
+                <button className= "Searchbutton" onClick ={searchPlant}>Click</button>
+                <h4 onClick = {fetchData}>Clear search</h4>
+            </div>
+            <div className='DisplayFlex'>
+                <div className='plant'></div>
+                <div className='plant'></div>
+                <div className='plant'></div>
+                <div className='plant'></div>
+                <div className='plant'></div>
+            </div>
+
+            
+            <div className='database'>{
+                <div>
+                <h1 id = "heading">Welcome to the Plants Hub</h1>
+                <div id = "AllPlantsDiv">
+                {
+                    data?.map(({Plant_id,Plant_Name,Plant_image,Plant_Details,Plant_video}) =>
+                    (Plant_Name !== "Great Burdock") ?
+                        <div className='Plants'>
+                            <div className='padding'>
+                            <h3 className='plantName'>{Plant_Name}</h3>
+                                <div className="imageDiv">
+                                    <img  src={Plant_image} alt="" width={"250px"} height={"250px"} />
+                                </div>
+                                <div className= "Details">{Plant_Details}</div>
+                            </div>
+                        </div> : null)}
                     </div>
-                </div>
-                <div id = "seconddiv"></div>
+                
+            </div>
+            }
+
             </div>
 
-
-            <h1>Medicinal Plant Hub</h1>
-            <div className= "largecard">
-                <div className= "smallcard1">
-                    <div className= "card thotakura"></div>
-                    <h4>Amaramthus(Thotakura)</h4>
-                    <p>atherosclerosis, stomach ulcers, tuberculosis, as well as antiseptic, antifungal, and anti-inflammatory preparations</p>
-                </div>
-                <div className= "smallcard">
-                    <div className= "card kapparillaku"></div>
-                    <h4>Ajwain(kapparillaku)</h4>
-                    <p> has antifungal and antibacterial properties,Cure Cold And Cough</p>
-                </div>
-                <div className= "smallcard">
-                    <div className= "card medicinal"></div>
-                    <h4>Moringa(munagaku)</h4>
-                    <p>beneficial against digestive disorders.Treating edema,Preventing rheumatoid arthritis,kidney stones</p>
-                </div>
-            </div>
-
-
-            <div className= "largecard">
-                <div className= "smallcard1">
-                    <div className= "card tridax"></div>
-                    <h4>Tridax(Balapaku)</h4>
-                    <p>treat bronchial catarrh, diarrhea, dysentery and liver diseases.used to treat typhoid fever, cough, epilepsy, asthma, anemia, colds, inflammation</p>
-                </div>
-                <div className= "smallcard">
-                    <div className= "card aloevera"></div>
-                    <h4>Aloe vera(kalabanda)</h4>
-                    <p>treat skin injuries (burns, cuts, insect bites, and eczemas) and digestive problems,Lowers Blood Sugar.</p>
-                </div>
-                <div className= "smallcard">
-                    <div className= "card tulasi"></div>
-                    <h4>Ocimum tenuiflorum(Tulasi)</h4>
-                    <p>Reduces Cold, Cough & Other Respiratory Disorders and Stress & Blood Pressure,has Anti-cancer Properties Useful in Kidney Stones & Gouty Arthritis</p>
-                </div>
-            </div>
-
-
-            <div className= "largecard">
-                    <div className= "smallcard1">
-                    <div className= "card jilledu"></div>
-                    <h4>Calotropis(Jilledu)</h4>
-                    <p> an antidote for snake bite, sinus fistula, rheumatism, mumps, burn injuries, and body pain.</p>
-                </div>
-                <div className= "smallcard">
-                    <div className= "card usiri"></div>
-                    <h4>Phyllanthus acidus(usiri)</h4>
-                    <p> inflammatory, rheumatism, bronchitis, asthma, respiratory disorder, hepatic diseases and diabetes</p>
-                </div>
-                <div className= "smallcard">
-                    <div className= "card aswagandha"></div>
-                    <h4>Withania somnifera(aswagandha)</h4>
-                    <p>It enhances the function of the brain and nervous system and improves the memory</p>
-                </div>
-            </div>
-            <div className= "bottomdiv">
-                <h2>The true art of healing lies in unlocking the potential of medicinal plants</h2>
-                <p id = "bottomtext">Medicinal plants are invaluable natural resources with profound health benefits. They provide holistic remedies and traditional treatments,<br></br> reducing the reliance on synthetic drugs and their potential side effects. With their bioactive compounds, these plants promote disease prevention and overall well-being,<br></br> while minimizing the occurrence of adverse reactions. Incorporating medicinal plants into healthcare practices preserves <br></br>cultural heritage, promotes sustainability, and supports biodiversity conservation efforts.</p>
-            </div>
-
-
-
-
-            <div id = "footer">
+             <div id = "footer">
                 <div id = "homepart">
                     <h2 id = "heading2">Home</h2>
                     <p>About</p>
@@ -141,4 +137,4 @@ function PlantResource()
 export default PlantResource;
 
 
-        
+ 
