@@ -81,7 +81,6 @@ const PlantResource = () =>{
                             </div>
                         </div> : null)}
                     </div>
-                
             </div>
             }
 
