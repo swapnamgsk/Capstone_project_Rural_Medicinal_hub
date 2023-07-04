@@ -1,0 +1,104 @@
+#Container
+{
+    height : 810px;
+    display : flex;
+    border : 1px solid black;
+    background-size : cover;
+}
+#smallcontainer
+{
+    width : 650px;
+    height : 100%;
+    background-image : url('../../public/Resource/signup.png');
+    background-size : 650px;
+}
+
+.nature
+{
+    color : white;
+    margin-top : 150px;
+    text-align : center;
+    font-size : 30px;
+    line-height : 45px;
+}
+.sidetext
+{
+    margin-left : 680px;
+    margin-top : 30px;
+}
+#loginbutton
+{
+    padding : 7px;
+    margin-left : 20px;
+    border : none;
+    border-radius : 5px;
+}
+#heading
+{
+    margin-left : 380px;
+    margin-top : 80px;
+}
+#main
+{
+    margin-top : 30px;
+    margin-left : 300px;
+    width : 450px;
+    height : 500px;
+    border-radius : 50px;
+    background-color : white;
+    color : black;
+}
+#name
+{
+    padding : 15px 80px 15px 160px;
+    border : 1px solid black;
+    margin-top : 10px; 
+    border-radius : 5px;
+    background-color :rgb(223, 229, 233);
+    border : none;
+}
+#user
+{
+    padding : 15px 80px 15px 160px;
+    border : 1px solid black;
+    margin-top : 25px; 
+    border-radius : 5px; 
+    border : none;
+    background-color :rgb(223, 229, 233);
+}
+#mail
+{
+    padding : 15px 80px 15px 160px;
+    border : 1px solid black;
+    margin-top : 25px;
+    border : none;
+    border-radius : 5px;
+    background-color :rgb(223, 229, 233);
+}
+#password
+{
+
+    padding : 15px 80px 15px 160px;
+    border : 1px solid black;
+    margin-top : 25px;
+    border : none;
+    border-radius : 5px;
+    background-color :rgb(223, 229, 233);
+}
+#number
+{
+    padding : 15px 80px 15px 160px;
+    background-color :rgb(223, 229, 233);
+    margin-top : 25px;
+    border : none;
+    border-radius : 5px;
+}
+#SIGNUP
+{
+    margin-top : 25px;
+    margin-left : 105px;
+    padding : 15px 75px;
+    border : none;
+    border-radius : 5px;
+    background-color : deeppink;
+}

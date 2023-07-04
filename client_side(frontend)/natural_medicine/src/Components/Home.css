@@ -1,0 +1,463 @@
+#navbar
+{
+    width : 100%;
+    height : 80px;
+    border : 1px solid black;
+    display : flex; 
+    font-size : 25px;
+    background-color : #212121;
+    color : white;
+}
+#logo
+{
+    padding : 10px 40px;
+    margin-left : 20px;
+    background-image : url('../../public/Resource/image16.png');
+    background-size: 75px;
+    border-radius : 500px;
+}
+#home
+{
+    padding : 0px 40px 85px 40px;
+    margin-left : 800px;
+    margin-top : 30px;
+    font-style: normal;
+    font-size : 20px;
+}
+#about
+{
+    padding : 0px 40px 85px 40px;
+    margin-left : 70px;
+    margin-top : 30px;
+    font-style: normal;
+    font-size : 20px;
+}
+#resource
+{
+    padding : 0px 40px 85px 40px;
+    margin-left : 70px;
+    margin-top : 30px;
+    font-style: normal;
+    font-size : 20px;
+}
+#signup
+{
+    padding : 0px 40px 85px 40px;
+    margin-left : 70px;
+    margin-top : 30px;
+    font-style: normal;
+    font-size : 20px;
+}
+.Main
+{
+    width : 100%;
+    height : 750px;
+    border : 1px solid black;
+    display : flex;
+}
+.box1
+{
+    width : 60%;
+    height : 100%;
+    background-image: linear-gradient(lightgreen,white,lightgreen);
+}
+#anchorbutton
+{
+    height : 50px;
+    font-size : 20px;   
+    margin-top : 70px;
+    margin-left : 60px;
+    border : 1px solid black;
+    border-radius : 15px;
+}
+.mainheading
+{
+    font-size : 50px;
+    margin-left : 350px;
+    margin-top : 100px;
+}
+.secondheading
+{
+    font-size : 40px;
+    text-align: center;
+}
+a
+{
+    text-decoration: none;
+    color : black;
+}
+.para
+{
+    font-size : 30px;
+    line-height : 60px;
+    text-align: center;
+}
+
+.lastLine
+{
+    margin-top : 150px;
+    font-size : 18px;
+    text-align: center;
+}
+.image-animation
+{
+    width : 40%;
+    height : 100%;
+    animation : image-animation 10s infinite;
+}
+@keyframes image-animation {
+    0%{ background-image: url('../../public/Resource/aloevera2.png');background-size : cover;}
+    16%{ background-image: url('../../public/Resource/Usiri.png');}
+    32%{ background-image:url('../../public/Resource/desert.png') ;}
+    48%{ background-image: url('../../public/Resource/signup.png');}
+    64%{ background-image: url('../../public/Resource/kapparillaku.png');background-size : cover;}
+    80%{background-image: url('../../public/Resource/image19.png');}
+    100%{ background-image: url('../../public/Resource/tulasi.png');background-size : cover;}
+}
+
+
+.container
+{
+    width: 80%;
+    height: 500px;
+    border-radius : 10px;
+    margin-top : 70px;
+    margin-left : 180px;
+}
+
+.round1
+{
+    width : 300px;
+    height : 250px;
+    margin-bottom : 300px;
+    border-radius : 200px;
+}
+.round
+{
+    width : 300px;
+    height : 250px;
+    margin-left : 100px;
+    margin-bottom : 300px;
+    border-radius : 200px;
+}
+.skin
+{
+    background-image : url('../../public/Resource/skin.png');
+    background-size : cover;
+}
+.gastro
+{
+    background-image : url('../../public/Resource/digestiveSystem.png');
+    background-size : 270px 250px;
+}
+.respirator
+{
+    background-image : url('../../public/Resource/Respiratory.png');
+    background-size : 320px 240px;
+}
+.heart
+{
+    background-image : url('../../public/Resource/heart.png');
+    background-size : cover;
+}
+.goiter
+{
+    background-image : url('../../public/Resource/goiter.png');
+    background-size : 220px 230px;
+}
+.jaundice
+{
+    background-image : url('../../public/Resource/jaundice.png');
+    background-size : 200px 300px;
+}
+.poisonous
+{
+    background-image : url('../../public/Resource/poisonous.png');
+    background-size : 220px 230px;
+}
+.cancer
+{
+    background-image : url('../../public/Resource/cancer.png');
+    background-size : 240px 230px;
+}
+
+#imageDiv
+{
+    width : 100%;
+    height : 50%;
+    display: flex;
+}
+
+#textdiv
+{
+    display : flex;
+}
+.textDiv1
+{
+    width : 300px;
+    height : 250px;
+    text-align: center;
+}
+.textDiv
+{
+    width : 300px;
+    height : 250px;
+    margin-left : 100px;
+    text-align: center;
+}
+.textDiv2
+{
+    width : 300px;
+    height : 250px;
+    margin-left : 120px;
+    text-align: center;
+}
+
+/* ///////////////////////////////////////////////////////////////////// */
+.horizontalDiv
+{
+    width : 100%;
+    height : 450px;
+    border : 1px solid black;
+    margin-top : 100px;
+    animation : horizontalDiv 10s infinite;
+    animation-direction: reverse;
+    text-align: center;
+}
+@keyframes horizontalDiv{
+   0%{ background-image: url('../../public/Resource/Background.png'); background-size: cover;}
+   33%{ background-image: url('../../public/Resource/mainimage.png');  background-size: cover;}
+   66%{ background-image: url('../../public/Resource/kuraku1.png');  background-size: cover;} 
+   100%{ background-image: url('../../public/Resource/image19.png');  background-size: cover;}
+}
+
+
+
+.horizontalText
+{
+    margin-top : 80px;
+    font-size: 25px;
+}
+.importance
+{
+    font-size : 20px;
+    line-height : 50px;
+}
+.largeDiv
+{
+    width: 80%;
+    height: 800px;
+    border-radius : 10px;
+    margin-top : 70px;
+    margin-left : 180px;
+}
+.lastHorizontal
+{
+    width : 100%;
+    height : 450px;
+    border : 1px solid black;
+    margin-top : 100px;
+    background-image: url('../../public/Resource/lastdivimage.png');
+    background-size: 1800px 500px;
+    text-align : center;
+}
+.firstDiv
+{
+    width : 100%;
+    height : 50%;
+    display : flex;
+}
+.secondDiv
+{
+    width : 100%;
+    height : 50%;
+    display : flex;
+}
+.horizontalBox
+{
+    width : 25%;
+    height : 90%;
+}
+.Aloe
+{
+    background-image : url('../../public/Resource/aloevera.png');
+    background-size : cover;
+}
+.cactus
+{
+    background-image : url('../../public/Resource/cactus.png');
+    background-size : cover;
+    margin-left : 30px;
+}
+.belaku
+{
+    background-image : url('../../public/Resource/belaku.png');
+    background-size : cover;
+    margin-left : 30px;
+    margin-right : 30px;
+}
+.bluecolor
+{
+    background-image : url('../../public/Resource/bluecolor.png');
+    background-size : cover;
+}
+.nalleru
+{
+    background-image : url('../../public/Resource/nalleru.png');
+    background-size : cover;
+}
+.medicinalPlant
+{
+    background-image : url('../../public/Resource/medicinal.png');
+    background-size : cover;
+    margin-left: 30px;
+}
+.jilledu
+{
+    background-image : url('../../public/Resource/gilledu.png');
+    background-size : cover;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.vusiri
+{
+    background-image : url('../../public/Resource/Usiri.png');
+    background-size : cover;
+}
+.lastText
+{
+    line-height : 50px;
+    font-size : 20px;
+    margin-top : 120px;
+}
+#footer
+{
+    width: 95%;
+    height: 400px;
+    border : 1px solid black;
+    border-radius : 10px;
+    margin-top : 70px;
+    margin-left : 40px;
+    display : flex;
+    background-color : #212121;
+    color : white;
+}
+#homepart
+{
+    width : 30%; 
+    margin-top : 60px;
+    margin-left : 80px;
+}
+#heading2
+{
+    margin-left : -80px;
+}
+#contact
+{
+    margin-left : 50px;
+    margin-top : 50px;
+}
+#email-address
+{
+    display : flex;
+}
+#mobilenumber
+{
+    display : flex;
+}
+#Address
+{
+    display : flex;
+}
+
+.bottomText
+{
+    margin-top :20px;
+    margin-left : 10px;
+    line-height : 20px;
+}
+#socialmedia
+{
+    margin-left : 20px;
+}
+#socialmedialinks
+{
+    margin-left: 350px;
+    margin-top : 30px;
+}
+#facebook
+{
+    display : flex;
+}
+#facebookimage
+{
+    background-image : url('../../public/Resource/facebook1.png');
+    background-size : 50px;
+    width : 50px;
+    height : 50px;
+    border-radius : 30px;
+    margin-top : 10px;
+}
+#facebooklink
+{
+    margin-left : 15px;
+    margin-top : 26px;
+}
+#twitter
+{
+    display : flex;
+}
+#twitterimage
+{
+    background-image : url('../../public/Resource/twitter.png');
+    background-size : 50px;
+    border-radius : 30px;
+    width : 50px;
+    height : 50px;
+    margin-top : 10px;
+}
+#twitterlink
+{
+    margin-left : 15px;
+    margin-top : 26px;
+}
+#instagram
+{
+    display : flex;
+}
+#instagramimage
+{
+    background-image : url('../../public/Resource/instagram.jpeg');
+    background-size : 50px;
+    border-radius : 30px;
+    width : 50px;
+    height : 50px;
+    margin-top : 10px;
+}
+#instagramlink
+{
+    margin-left : 15px;
+    margin-top : 26px;
+}
+#linkedin
+{
+    display: flex;
+}
+#linkedinimage
+{
+    background-image : url('../../public/Resource/linkedin.png');
+    background-size : 50px;
+    border-radius : 30px;
+    width : 50px;
+    height : 50px;
+    margin-top : 10px;
+}
+#linkedinlink
+{
+    margin-left : 15px;
+    margin-top : 26px;
+}
+.CONTACT
+{
+    margin-right :30px;
+}
